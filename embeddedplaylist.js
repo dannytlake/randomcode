@@ -37,7 +37,7 @@ for (n = 0; n < v.length; n++) {
     t.style.width = this.style.width;
     t.style.height = this.style.height;
     t.frameBorder = '0';
-    t.allow = 'accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture';
+    t.allow = 'accelerometer; encrypted-media; gyroscope; picture-in-picture';
     t.allowFullscreen = true;
 
     this.parentNode.replaceChild(t, this);
